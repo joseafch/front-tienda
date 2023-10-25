@@ -1,0 +1,47 @@
+.div-padre{
+    width: 100%;
+ display: flex;
+ justify-content: center;
+    background: #D3CCE3;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #E9E4F0, #D3CCE3);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #E9E4F0, #D3CCE3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.div-content{
+    width: 80%;
+    background-color: white;
+}
+.gallery-producs{
+display: flex;
+flex-direction: row;
+// width: 20%;
+flex-wrap: wrap;
+// border: 1px solid gray;
+gap: 20px;
+padding: 25px;
+
+}
+.button-cuadro{
+    width: 20px;
+}
+.div-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+
+
+}
+.div-button-input{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    justify-content: end;
+    gap: 10px;
+
+}
+.input-search{
+    display: flex;
+    justify-content: end;
+}
+.tittle-shoping{
+    margin-left: 30px;
+}

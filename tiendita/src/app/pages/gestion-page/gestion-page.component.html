@@ -1,0 +1,41 @@
+<div class="div-padre">
+    <div class="div-marco">
+        <div class="div-cuadro">
+            <div class="title">
+                <h2>Creación/edición de Productos</h2>
+            </div>
+            <div class="div-Conteiner">
+                <form class="form-imputs" [formGroup]="productForm" (ngSubmit)="onSubmit()">
+                    <!--se hace un form como elemento html y dentro se pone [formgrup] con el valor asignado en este caso productForm-->
+                    <h2>Nombre del Producto:</h2> <!--luego en el (ngsumit) la funfion onSumit()-->
+                    <input class="imput-data" type="text" placeholder="Ej:tiesto para plantas" formControlName="name">
+                    <!--el objecto name de mi productForm es el valor del input -->
+                    <h2>Precio:</h2>
+                    <input class="imput-data" type="text" placeholder="Ej: 9.50" formControlName="price">
+                    <h2>description</h2>
+                    <input class="imput-data" type="text" placeholder="Ej: el mas vendido"
+                        formControlName="description">
+                    <h2>Ruta de la imagen:</h2>
+                    <input class="imput-data" type="text" placeholder="Ej: http://xcosa.com/img.png"
+                        formControlName="image">
+                    <h2>Valoracion</h2>
+                    <input class="imput-data" type="number" placeholder="de 0 a 5" formControlName="stars">
+                    <button type="submit">Añadir</button>
+                    <button (click)="onUpdate()">actualizar</button>
+                </form>
+               
+                <div class="product">
+                    <div class="product-box">
+                     <div class="div-img">   <img src="{{newProduct?.image}}" alt=""></div>
+                        <h2>{{newProduct?.name}}</h2>
+                        <h3>{{newProduct?.price}}</h3>
+                        <p>{{newProduct?.description}}</p>
+                        <p-rating [(ngModel)]="newProduct.stars">{{newProduct?.stars}}</p-rating>
+                        <!--asi se llama a funcion para pintar como estrellas-->
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,22 @@
+
+<div class="box-card" *ngFor="let items of product">
+    <div class="conteiner">
+        <div class="div-img">
+    <img src="{{items.image}}" alt=""></div>
+    <h2>{{items.name}}</h2>
+    <h3>${{items.price}}</h3>
+    <p>{{items.description}}</p>
+    <div class="value-edid">
+        <div class="value">
+        <p-rating [(ngModel)]="items.stars" [cancel]="false">{{items?.stars}}</p-rating>
+        
+    </div>
+        <!-- <p-rating [ngModel]="items.stars" [readonly]="true" [stars]="10" [cancel]="false"></p-rating> -->
+<div class="edid">
+        <a routerLink="/update/{{items.id}}">Editar</a>
+    </div>
+    </div>
+</div>
+</div>
+
+

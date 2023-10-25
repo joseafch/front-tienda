@@ -1,0 +1,52 @@
+.links{
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: gray;
+    width: 20%;
+    padding: 5px;
+    border-radius: 5px;
+    
+}
+.links:hover{
+    color: blue;
+    background-color: burlywood;
+}
+.div-padre-enlaces{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: 100%;
+    justify-content: center;
+    background-color: rgba(242, 173, 44, 0.834);
+    padding: 20px;
+}
+.div-enlaces{
+    width: 20%;
+}
+img{
+    width: 20px;
+}
+.shopeame-title{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    gap: 10px;
+}
+.S-title{
+    // background-color: blue;
+    color: white;
+    height: fit-content;
+    padding: 0px 10px;
+    border-radius: 10px;
+    background: #0F2027;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.shopeame-title{
+    color:  #0F2027;
+}

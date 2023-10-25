@@ -1,0 +1,15 @@
+ @import"~primeicons/primeicons.css";
+@import"~primeng/resources/themes/lara-light-blue/theme.css";
+@import"~primeng/resources/primeng.min.css";
+// importar todos estos archisvos para poder usar el retong por estrellas
+// primero ante todo hacer un npm install primeng --save
+//npm install primeicons --save en la parte front del proyecto
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+ 
+//     background: #D3CCE3;  /* fallback for old browsers */
+// background: -webkit-linear-gradient(to right, #E9E4F0, #D3CCE3);  /* Chrome 10-25, Safari 5.1-6 */
+// background: linear-gradient(to right, #E9E4F0, #D3CCE3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
