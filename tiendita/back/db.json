@@ -1,0 +1,60 @@
+{
+  "products": [
+    {
+      "id": 6,
+      "name": "Jarabe marca blanca",
+      "price": 12.5,
+      "description": "No cura el COVID, pero está muy rico.",
+      "stars": 1,
+      "image": "https://i.ibb.co/mhgHWnf/jarabe.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Maceta de diseño",
+      "price": 9.99,
+      "description": "Maceta de diseño a precio económico.",
+      "stars": 5,
+      "image": "https://i.ibb.co/MZSrV6q/maceta.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Gato Persa",
+      "price": 100,
+      "description": "No sé si es legal vender animales online...",
+      "stars": 3,
+      "image": "https://i.ibb.co/1zPPBjx/gato.jpg"
+    },
+    {
+      "name": "Malta",
+      "price": "1,02",
+      "description": "Combina de maravilla con una empanada",
+      "image": "https://caprichoslatinos.com/wp-content/uploads/2022/05/malta-polar-207ml.png",
+      "stars": 5,
+      "id": 9
+    },
+    {
+      "name": "Empanadas",
+      "price": "2,50",
+      "description": "No se juzgara si la escoges de queso",
+      "image": "https://img.cocinarico.es/2020-01/empanadas-venezolanas-1.jpg",
+      "stars": 5,
+      "id": 10
+    },
+    {
+      "name": "Chicha",
+      "price": "2,99",
+      "description": "Bebida dulce de arroz, tomate una cono todos los hierros",
+      "image": "https://www.recetas-venezolanas.com/base/stock/Recipe/221-image/221-image_web.jpg",
+      "stars": 5,
+      "id": 11
+    },
+    {
+      "name": "Cachito de Jamon",
+      "price": "2,50",
+      "description": "Pan relleno de jamón y beicon",
+      "image": "https://www.cocinayvino.com/wp-content/uploads/2017/07/cachito2-696x464.jpg",
+      "stars": 4,
+      "id": 12
+    }
+  ]
+}
