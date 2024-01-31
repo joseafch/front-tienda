@@ -2,7 +2,7 @@
     <div class="div-marco">
         <div class="div-cuadro">
             <div class="title">
-                <h2>Creación/edición de Productos</h2>
+                <h2>Creación/Edición de Productos</h2>
             </div>
             <div class="div-Conteiner">
                 <form class="form-imputs" [formGroup]="productForm" (ngSubmit)="onSubmit()">
@@ -12,16 +12,18 @@
                     <!--el objecto name de mi productForm es el valor del input -->
                     <h2>Precio:</h2>
                     <input class="imput-data" type="text" placeholder="Ej: 9.50" formControlName="price">
-                    <h2>description</h2>
+                    <h2>Description:</h2>
                     <input class="imput-data" type="text" placeholder="Ej: el mas vendido"
                         formControlName="description">
                     <h2>Ruta de la imagen:</h2>
                     <input class="imput-data" type="text" placeholder="Ej: http://xcosa.com/img.png"
                         formControlName="image">
                     <h2>Valoracion</h2>
-                    <input class="imput-data" type="number" placeholder="de 0 a 5" formControlName="stars">
-                    <button type="submit">Añadir</button>
-                    <button (click)="onUpdate()">actualizar</button>
+                    <input class="imput-data" minlength="1" maxlength="1" size="1" type="number" placeholder="de 0 a 5" formControlName="stars">
+                    <div class="div_bton-aa">
+                    <button class="bton-aa" type="submit">Añadir</button>
+                    <button class="bton-aa" (click)="onUpdate()">Actualizar</button>
+                </div>
                 </form>
                
                 <div class="product">

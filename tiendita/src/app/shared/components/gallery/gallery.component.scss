@@ -1,12 +1,14 @@
 img{
     width: 80%;
     height: 200px;
+    object-fit: fill;
 }
 .box-card{
-border: 1px solid rgba(242, 173, 44, 0.834);
+border: 2px solid rgba(242, 173, 44, 0.834);
 width: 30%;
 display: flex;
 justify-content: center;
+border-radius: 5px;
 }
 .conteiner{
     padding: 10px;
@@ -22,6 +24,7 @@ justify-content: center;
     width: 100%;
     justify-content: center;
     align-items: center;
+    gap: 15px;
 }
 .value{
     // width: 50%;

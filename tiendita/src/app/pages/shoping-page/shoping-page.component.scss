@@ -20,15 +20,20 @@ gap: 20px;
 padding: 25px;
 
 }
+.button-cuadro_img{
+    width: 30px;
+    border-radius: 10px;
+}
 .button-cuadro{
-    width: 20px;
+    border-radius: 10px;
+    border: 2px solid black;
 }
 .div-button{
     display: flex;
     flex-direction: row;
     justify-content: end;
-
-
+    margin-top: 10px;
+    gap: 10px;
 }
 .div-button-input{
     display: flex;
@@ -38,9 +43,16 @@ padding: 25px;
     gap: 10px;
 
 }
-.input-search{
+.div_input-search{
     display: flex;
     justify-content: end;
+   
+}
+.input-search{
+    padding: 10px;
+    width: 40%;
+    border-radius: 10px;
+    border: 1px solid rgba(242, 173, 44, 0.834);
 }
 .tittle-shoping{
     margin-left: 30px;

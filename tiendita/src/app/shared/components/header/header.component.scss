@@ -20,11 +20,15 @@
     gap: 20px;
     width: 100%;
     justify-content: center;
+    align-items: center;
     background-color: rgba(242, 173, 44, 0.834);
     padding: 20px;
 }
 .div-enlaces{
     width: 20%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
 }
 img{
     width: 20px;

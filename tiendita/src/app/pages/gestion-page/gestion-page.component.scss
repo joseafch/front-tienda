@@ -50,7 +50,18 @@ align-items: center;
 }
 .imput-data{
     width: 100%;
+    padding: 10px;
 }
 .form-imputs{
     width: 50%;
+}
+.div_bton-aa{
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+}
+.bton-aa{
+    border-radius: 5px;
+    border: 2px solid black;
+    padding: 5px;
 }
