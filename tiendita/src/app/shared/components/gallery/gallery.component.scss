@@ -1,9 +1,12 @@
-img{
-    width: 80%;
-    height: 200px;
-    object-fit: fill;
+
+
+.img_products{
+    width: 100%;
+    height: 250px;
+    object-fit:fill;
 }
 .box-card{
+    // display: grid;
 border: 2px solid rgba(242, 173, 44, 0.834);
 width: 30%;
 display: flex;
@@ -11,8 +14,7 @@ justify-content: center;
 border-radius: 5px;
 }
 .conteiner{
-    padding: 10px;
-    width: 90%;
+    width: 100%;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -32,7 +34,12 @@ border-radius: 5px;
     flex-direction: row;
 }
 .div-img{
+    width: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    // justify-content: center;
+}
+.c-g-div-info{
+    padding: 10px;
+    
 }

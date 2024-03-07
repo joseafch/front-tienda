@@ -3,9 +3,11 @@
     <div class="conteiner">
         <div class="div-img">
     <img class="img_products" src="{{items.image}}" alt=""></div>
+    <div class="c-g-div-info">
     <h2>{{items.name}}</h2>
     <h3>${{items.price}}</h3>
     <p>{{items.description}}</p>
+</div>
     <div class="value-edid">
         <div class="value">
         <p-rating [(ngModel)]="items.stars" [cancel]="false">{{items?.stars}}</p-rating>
@@ -18,5 +20,6 @@
     </div>
 </div>
 </div>
+
 
 

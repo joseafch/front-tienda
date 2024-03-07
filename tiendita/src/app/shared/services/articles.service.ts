@@ -6,23 +6,23 @@ import { Injectable } from '@angular/core';
 })
 export class ArticlesService {
 
-  
+  link:any = "https://back-tienda-five.vercel.app/products"
   constructor(private http: HttpClient) { }
   
   id!:any
   getArticles(){
 
-    return this.http.get('http://localhost:3000/products')
+    return this.http.get(this.link)
   }
   getArticle(id:number){
 
-    return this.http.get(`${'http://localhost:3000/products'}/${id}`) // aqui ortendremos un get por id
+    return this.http.get(`${this.link}/${id}`) // aqui ortendremos un get por id
   }
  postProduct(product:any){
-  return this.http.post('http://localhost:3000/products',product)
+  return this.http.post(this.link,product)
  } // aqui haremos un funcion para hacer un post
  
  putProduct(product:any, id:number){
-  return this.http.put(`http://localhost:3000/products/${id}`,product)
+  return this.http.put(`${this.link}/${id}`,product)
  } // aqui haremos un funcion para hacer un post
 }

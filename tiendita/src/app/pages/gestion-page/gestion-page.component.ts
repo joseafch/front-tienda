@@ -26,8 +26,9 @@ export class GestionPageComponent implements OnInit {
 
 
 
-  constructor(private articlesService : ArticlesService,private activatedRoute:ActivatedRoute,
-   private formBuilder: FormBuilder){} //private activatedRoute:ActibateRoute
+  constructor(private articlesService : ArticlesService,
+    private activatedRoute:ActivatedRoute,
+    private formBuilder: FormBuilder){} //private activatedRoute:ActibateRoute
 //2º crear un formBuilder
 
   ngOnInit(): void {
@@ -37,13 +38,6 @@ export class GestionPageComponent implements OnInit {
     this.articlesService.getArticle(this.id).subscribe((res:any)=>{
       console.log(res);
       this.article= res 
-      // this.productForm = this.formBuilder.group({ //aqui se dice q cosas tendra nuestro builder
-      //   name:[this.article.name,[Validators.required]], //se le pueden poner validadores como ejemplo de q sea requerido llenar el input solicitado
-      //   price:[this.article.price,[Validators.required]],
-      //   description:[this.article.description,[Validators.required]],
-      //   image:[this.article.image,[Validators.required]],
-      //   stars:[this.article.stars,[ Validators.max(5)]]
-      //       });
       //con esto llamo a la funcion que me devolvera el producto con su id ya con un valor de la anterior operacion
     });
 //2º crear un formBuilder
